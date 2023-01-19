@@ -1,0 +1,622 @@
+body{
+    margin: 0px;
+}
+section{
+    margin:0px;
+}
+hr{
+    margin:0px;
+}
+li{
+    
+    list-style-type:none;
+}
+
+.navbar{
+    background-color: rgb(255 200 61);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    margin : 4px auto auto 4px;
+}
+
+
+.nav2btn{
+    display: none;
+    font-size: 28px;
+    
+  margin: auto 4px;
+}
+
+.location{
+    flex-grow: 1;
+    margin-left: 3px;
+}
+
+.location input{
+
+    padding: 9px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+  
+    /* width: 100%; */
+}
+
+.searchBox{
+    flex-grow: 2;
+
+}
+
+
+.searchBox input{
+    padding: 9px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    /* width: 100%; */
+}
+
+
+.navbar input {
+    width:78%;
+}
+
+
+.searchIcon  {
+    font-size: 24px;
+    margin-right: 1%;
+    display: none;
+}
+
+.tel{
+        margin : auto  10px auto auto;
+        font-size: 20px;
+}
+
+.tel i{
+    
+  margin: auto 4px;
+
+}
+
+.logo img{
+    
+    width: 150px;
+    height: 63.40px;
+    margin-left: 0px;
+}
+
+
+
+
+@media (max-width: 980px) {
+    .tel span{
+        display: none;
+    }
+}
+
+@media (max-width: 770px) {
+    .searchBox {
+        display:none;   
+      
+    }
+@media (max-width: 460px){
+    .navbar input{
+        width: 52%;
+    }
+}
+    
+.searchIcon  {
+    display: block;
+}
+}
+
+
+
+
+.navbar2{
+    background-color: rgb(244, 242, 240);
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    
+    align-items: center;
+    padding:5px;
+    /* align-items: flex-start */
+}
+/* 
+.sm_win{
+    display:none;
+} */
+#item0{
+    display: none;
+}
+
+.navbar2 li{
+    /* border: 2px solid red; */
+    font-size: 1.2rem;
+}
+
+.navbar2 i{
+    font-size: 25px;
+    margin-right: 3px;
+    margin-top: 2px;
+}
+
+
+
+.navbar2 #item7{
+    flex: 0 0 15%;
+    display: flex;
+    align-self: flex-end;
+    /* width: fit-content; */
+    text-align: right;   
+}
+
+#item7 i {
+    margin-right:18px;
+    
+}
+
+#item7 div{
+    border-right: 0.9px solid grey;
+}
+
+#item7 button{
+    margin: auto auto auto 17px;
+    padding: 8px;
+    color: rgb(255 255 255);
+  background: rgb(0 92 80);
+  background: linear-gradient(75deg, rgb(0 194 169) 0%, rgb(0 82 71) 60%, rgb(0 92 80) 100%);
+  border-right-color: rgb(0 92 80);
+  border-left-color: rgb(0 194 169);
+  border-radius: 20px;
+}
+
+
+
+
+@media (max-width:  914px) {
+    .navbar2 i {
+        display: none;
+    }
+
+
+    #item7 i{
+        display: inline-block;
+    }
+}
+
+@media (max-width: 750px) {
+    .item{
+        display: none;
+    }
+   #item0{
+    display: inline-block;
+   }
+   
+    .nav2btn{
+        display: inline-block;
+    }
+}
+
+
+
+
+
+
+
+
+
+.navbar3{
+    
+    align-items: center;
+    display: flex;
+    background-color: antiquewhite;
+}
+
+
+
+  .left {
+    position: absolute;
+    left: 5px;
+    transform: translateY(-50%);
+  }
+  .right {
+    position: absolute;
+    right: 5px;
+    transform: translateY(-50%);
+  }
+
+
+
+  .scroll-images{
+    /* width: 98%; */
+    /* height: 30px; */
+    margin: auto 29px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    /* align-items: stene; */
+    align-self: center;
+  }
+
+  .ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    vertical-align:bottom
+}
+
+  .child {
+
+    margin : 4px 8px;
+    display: inline-block; 
+     align-self: center;
+    white-space: nowrap;
+  }
+  
+  .child p {
+    margin : 3px 2px 1px 2px;
+    z-index: 3;
+  }
+
+
+
+
+  .scroll-images::-webkit-scrollbar {
+    -webkit-appearance: none;
+ }
+
+
+
+
+
+ .intro{
+
+    margin-top: 39px; 
+    justify-content: center;
+}
+ .intro h1{
+    font-size: 2em;
+
+    text-align: center;
+    
+ }
+ 
+ .intro .optionBox{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    text-align: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 50%;
+    min-width: 276px;
+
+    margin: 2px auto;
+    
+    align-items: center;
+ }
+
+
+ .intro h4{
+     font-size: 1.5em;
+     
+     cursor: pointer;
+    }
+    
+    #rightBox{
+        border-left: 1px solid grey;
+        padding-left: 15px;
+    }
+    
+    @media (max-width: 680px) {
+       #rightBox{
+           border-top: 1px solid grey;
+           border-left: none;
+           /* padding-top: 15px; */
+        }
+       
+    }
+
+
+
+
+
+ .shopByCategory{
+
+    margin-top: 100px;
+
+    text-align: center;
+ }
+
+ h2{
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+    margin: 4px
+ }
+
+
+ .collections{
+    
+    display: grid;
+    margin-top: 58px;
+
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 6px;
+    /* grid-template-rows: 2; */
+    
+}
+
+
+
+@media (max-width: 770px) {
+    .collections{
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .collections img{
+        height: 93%;
+    }
+}
+
+
+.collections img{
+    /* display:  */
+    min-width:310px ;
+    /* max-width: 480px;  */
+    width: 88%;
+    height: 96%;
+    border: 2px solid grey;
+    border-radius: 19px;
+
+}
+
+
+
+
+
+.popularProducts{
+    margin: 4px 0px ;
+    padding: 30px;
+    background-color: rgb(235 235 235);
+}
+
+.popularProducts .image{
+    background-color: rgb(235 235 235);
+
+}
+
+.popularProducts .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
+    
+    background-color: rgb(235 235 235);
+    -webkit-overflow-scrolling: touch;
+}
+
+.grid{
+    
+    background-color: rgb(235 235 235);
+    display: flex;
+    align-items: center;
+}
+
+.popularProducts .container::-webkit-scrollbar {
+    -webkit-appearance: none;
+ }
+
+
+.popularProducts .content{
+    margin: 10px;
+}
+
+.popularProducts .infoPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoPrice b{
+    border: 2px solid green;
+    color: green;
+    padding: 3px 8px;
+    border-radius: 21px;
+}
+.card .image{
+    width: 180px;
+    height: 180px;
+}
+
+.card .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content .info{
+    padding:6px;
+}
+.card-content h5{
+    margin-bottom: 6px;
+    color: red;
+    text-decoration: line-through;
+}
+
+.card-content h4{
+    margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+.temp{
+    display: grid;
+    
+    justify-content: center;
+    /* grid-template-columns: 2; */
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-columns: 1fr auto 1fr;
+    
+}
+
+
+
+
+
+/* //footer**************************** */
+
+footer .ourFacilities{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(235 235 235);
+    padding: 20px 2px;
+}
+
+
+
+
+.contactForm{
+    background-color: rgb(255 200 61);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+
+@media (max-width: 930px) {
+    .contactForm{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 20px 50px;
+    }
+    
+.yellowBK{
+    
+    display: flex;
+    justify-content: center;
+    
+    background-color: rgb(255 200 61);
+  }
+}
+
+
+.contactForm h2, .contactForm h3{
+    text-align: left;
+    font-size: 14px;
+}
+
+
+.formIntro{
+    
+    /* flex-basis: 240px; */
+}
+
+.inputs{
+    flex-shrink: 1;
+}
+.inputGroup{
+    width: 240px;
+
+}
+
+.inputGroup input, .subscribeLinks input{
+    padding: 13px 1px 13px 13px;
+    margin: 10px 1px 10px 0px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.message{
+    
+    width: 273px;
+    height: 179px;
+}
+
+.message textarea{
+    width:90%;
+    height:100%;
+    border-radius: 20px;
+}
+
+.submitBtn button{
+    
+  padding: 10px;
+  margin-top: 30px;
+  width: 89px;
+  border-radius: 21px;
+}
+
+
+
+
+.subscribeLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   gap: 8   0px;
+    background-color: rgb(244, 242, 240);
+    padding: 20px 6px;
+    /* flex-direction: column; */
+}
+
+
+
+
+@media (max-width: 800px) {
+    .subscribeLinks{
+        flex-direction: column;
+
+    }
+    .subscribeLinks .input{
+        width: 90%;
+    }
+}
+
+
+
+.subscribeLinks img{
+    
+    width: 150px;
+    height: 63.40px;
+    margin-left: 0px;
+}
+
+.subscribeLinks p{
+    width: 260px;
+}
+
+.subscribeLinks .input{
+    width: 30%;
+}
+
+.subscribeLinks button{
+    margin: 0;
+}
