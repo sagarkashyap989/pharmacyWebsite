@@ -620,3 +620,123 @@ footer .ourFacilities{
 .subscribeLinks button{
     margin: 0;
 }
+
+
+
+
+.containerBox{
+    padding:20px;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    background-color: rgb(244, 242, 240);
+    justify-content: space-between ;
+}
+
+
+
+.containerBox h3, i{
+    margin:3px;
+}
+
+
+.containerBox .footer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* justify-content: space-between; */
+    justify-self: flex-start;
+    gap:10px;
+}
+
+
+.footerNav {
+
+    justify-self: flex-end;
+}
+
+.footerNav h2{
+    text-align: left;
+
+
+
+}
+
+.footer h4{
+    margin: 18px 13px 12px 0px;
+    font-size: 20px;
+    text-align: left;
+
+    
+}
+
+.footer ul{
+    padding: 0;
+}
+.footer li{
+    text-align: left;
+     line-height: 21px;
+    font-size:13px; 
+
+}
+
+.footer div{
+    /* border: 2px solid red; */
+    
+    display: inline-block;
+}
+
+.footer .firstItem{
+        grid-row-start: span 2;
+      }
+.footer .lastItem{
+   grid-column:  auto / span 2;
+   width:420px;
+}
+
+.links span{
+    color: rgba(105, 179, 105, 0.926)
+}
+
+.links{
+    justify-self: flex-end;
+     
+    margin-right:112px;
+}
+
+.links h4{
+    margin: 3px 80px 3px 3px;
+    text-align: left;
+    font-size: 18px;
+    width:max-content;
+
+
+}
+
+.links .appLinks{
+    
+    display: flex;
+    width: max-content
+    justify-content: center;
+    margin-top: 63px;
+}
+
+.links img{
+    width:170px;
+}
+
+.links{
+    width: 30%;
+}
+
+.links input{
+    padding: 13px 1px 13px 13px;
+    margin: 10px 1px 10px 0px;
+    /* width: 90%; */
+    border-radius: 20px;
+    /* border-radius: 21px; */
+    /* padding: 14px; */
+    width: 208px;
+}
+.footer i {
+    position: absolute;
+}
